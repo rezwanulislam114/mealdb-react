@@ -1,0 +1,24 @@
+.search-section {
+    background: rgb(228, 228, 228);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.search-section input {
+    width: 60%;
+    line-height: 25px;
+}
+.meals {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.meals-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-right: 2px solid lightgray;
+}
+.order-section {
+    margin: 15px;
+}
